@@ -1,0 +1,13 @@
+Run Hello.py and hello.html (Text)
+
+>> python Hello.py
+URL >> http://127.0.0.1:5000/static/hello.html
+------------------------------------------------------------------
+
+Run predict_app.py and predict4.html (Image)
+>> python predict_app.py
+URL >> http://127.0.0.1:5000/static/predict4.html
+
+G:/Docker_T/keras-flask-deploy-webapp/models/modelDogCat.h5
+
+docker run -e MODEL_PATH=/g/Docker_T/keras-flask-deploy-webapp/models/modelDogCat.h5  -v volume-name:/g/Docker_T/keras-flask-deploy-webapp/models -p 5000:5000 keras_flask_app
