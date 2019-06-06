@@ -1,1 +1,1 @@
-web: gunicorn root.app:app --log-file -
+web: gunicorn predictapp:app --log-file=-
