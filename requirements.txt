@@ -1,6 +1,5 @@
 Flask
 Flask-JSON
-#opencv-python
 tensorflow
 numpy
 pybase64
@@ -9,3 +8,7 @@ h5py
 pyyaml
 h5pyd
 tf_nightly
+requests
+gunicorn
+line-bot-sdk
+urllib3
